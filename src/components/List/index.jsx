@@ -20,7 +20,7 @@ export const List = ({ phones }) => {
         </div>
       ) : (
         <h1 className="title">
-          Primero Ingresá un archivo <a href="!#">Excel</a>
+          Primero Ingresá un archivo <span>Excel</span>
         </h1>
       )}
     </div>

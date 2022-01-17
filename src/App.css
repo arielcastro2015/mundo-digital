@@ -36,7 +36,12 @@
   flex-grow: 1;
 }
 
-.title a {
+/* .title a {
+  color: #0071f394;
+  text-decoration: none;
+} */
+
+.title > span {
   color: #0071f394;
   text-decoration: none;
 }

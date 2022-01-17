@@ -25,12 +25,12 @@ export const Convert = ({ handleChange, buttonClick, phones }) => {
       <hr />
       {!phones && (
         <h1 className="title">
-          Agregá un archivo <a href="!#">Excel</a>
+          Agregá un archivo <span>Excel</span>
         </h1>
       )}
       {phones && (
         <h1 className="title">
-          <a href="!#">Excel</a> Convertido
+          <span>Excel</span> Convertido
         </h1>
       )}
     </div>

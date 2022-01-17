@@ -12,7 +12,7 @@ export const ListPhone = ({ phones }) => {
         phones.map((phone, i) => <Phone key={i} {...phone} />)
       ) : (
         <h1 className="title">
-          Primero Ingresá un archivo <a href="!#">Excel</a>
+          Primero Ingresá un archivo <span>Excel</span>
         </h1>
       )}
     </div>
